@@ -1,27 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#0f1116" />
-    <title>OnCloud | Modern Cloud & Licensing Solutions</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OnCloud | Modern Cloud & Licensing Solutions</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
 <body>
   <header class="top-bar">
     <div class="brand">
       <span class="dot"></span>
       <span class="name">OnCloud</span>
     </div>
-    <div class="controls">
-      <button class="theme-toggle" type="button" aria-label="Toggle color mode" aria-live="polite"></button>
-      <div class="language-note" id="language-note" aria-live="polite"></div>
-    </div>
     <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
     <nav class="nav" aria-label="Main navigation">
       <a href="#home">Home</a>
       <a href="#about">About</a>
-      <a href="services.html">Services</a>
+      <a href="#services">Services</a>
       <a href="#contact">Contact</a>
     </nav>
   </header>
@@ -36,7 +31,7 @@
           and streamlined software licensing so your teams can ship with certainty.
         </p>
         <div class="cta-group">
-          <a class="button primary" href="services.html">Explore services</a>
+          <a class="button primary" href="#services">Explore services</a>
           <a class="button ghost" href="#contact">Talk with us</a>
         </div>
       </div>
@@ -53,31 +48,6 @@
           <p class="label">Visibility</p>
           <p>Operational dashboards and feedback loops so leadership can steer with data.</p>
         </div>
-      </div>
-    </section>
-
-    <section class="section services-highlight">
-      <div class="section-header">
-        <p class="eyebrow">Services at a glance</p>
-        <h2>OnCloud helps teams modernise infrastructure, licensing and security without disrupting their core business.</h2>
-      </div>
-      <div class="highlight-grid">
-        <a class="highlight-card" href="services.html#hpc-engineering">
-          <p class="label">HPC &amp; Engineering Compute</p>
-          <p>Blueprints, tuning, and runbooks for demanding simulation and analytics workloads.</p>
-        </a>
-        <a class="highlight-card" href="services.html#automation-devops">
-          <p class="label">Automation &amp; DevOps</p>
-          <p>Infrastructure-as-code and CI/CD patterns that keep delivery fast and controlled.</p>
-        </a>
-        <a class="highlight-card" href="services.html#license-management">
-          <p class="label">License Management</p>
-          <p>Secure servers, utilisation insights, and expiry automation for critical software.</p>
-        </a>
-        <a class="highlight-card" href="services.html#security">
-          <p class="label">Security &amp; Zero Trust</p>
-          <p>Baselines, identity design, and continuous verification that meet audit needs.</p>
-        </a>
       </div>
     </section>
 
@@ -112,50 +82,59 @@
         <p class="eyebrow">Services</p>
         <h2>Built for high-assurance cloud programs</h2>
         <p class="section-lede">
-          Eight offerings across HPC, licensing, automation, virtualisation, integration, observability, security,
-          and productised packs. Each is designed to reinforce stability, speed, and trust across your platforms.
+          From high-performance compute accelerators to licensing management, each service is shaped to
+          reinforce stability, speed, and trust across your platforms.
         </p>
       </div>
       <div class="services-grid">
         <div class="service-card">
-          <h3>HPC &amp; Engineering Compute</h3>
-          <p>Blueprints, tuning, and governance for simulation, AI, and analytics workloads.</p>
+          <h3>Ori Project</h3>
+          <p>
+            Cloud-native modernization paths that simplify legacy decoupling, define clear service boundaries,
+            and create resilient, observable delivery pipelines.
+          </p>
           <ul>
-            <li>Cluster topology, schedulers, and storage design</li>
-            <li>Solver-ready environments and benchmark baselines</li>
-            <li>Operational guardrails for cost and stability</li>
+            <li>Target-state reference architectures</li>
+            <li>Service decomposition playbooks</li>
+            <li>Observability-first delivery guardrails</li>
           </ul>
         </div>
         <div class="service-card">
-          <h3>Automation, DevOps &amp; Cloud</h3>
-          <p>Infrastructure-as-code, CI/CD, and landing zones that keep delivery fast and auditable.</p>
+          <h3>EdoState Project</h3>
+          <p>
+            Secure platform foundations tailored for regulated domains, balancing compliance needs with
+            developer-friendly experiences.
+          </p>
           <ul>
-            <li>Ansible/Terraform blueprints and reusable modules</li>
-            <li>Pipeline engineering with observability baked in</li>
-            <li>Runbooks that cut toil across operations</li>
+            <li>Landing zones with policy as code</li>
+            <li>Zero-trust identity and access patterns</li>
+            <li>Release governance with automated checks</li>
           </ul>
         </div>
         <div class="service-card">
-          <h3>License Management &amp; SAM</h3>
-          <p>Secure license servers, utilisation dashboards, and expiry automation for critical software.</p>
+          <h3>BMW HPC-style solutions</h3>
+          <p>
+            High-performance compute blueprints inspired by HPC leaders, optimizing cost, performance,
+            and workload portability across cloud and edge.
+          </p>
           <ul>
-            <li>FlexLM-style and RLM-style server design</li>
-            <li>Peak usage, denial, and origin insights</li>
-            <li>90/60/30-day renewal alerts and compliance checks</li>
+            <li>Cluster patterns for GPU and CPU-intensive workloads</li>
+            <li>Elastic scheduling with workload-aware autoscaling</li>
+            <li>Performance engineering and benchmark baselines</li>
           </ul>
         </div>
         <div class="service-card">
-          <h3>Security, Observability &amp; Packs</h3>
-          <p>Zero Trust guidance, unified monitoring, and pre-defined packs to start quickly.</p>
+          <h3>OpenLM Licensing Services</h3>
+          <p>
+            Licensing strategy and automation to keep teams compliant while accelerating software delivery
+            and procurement clarity.
+          </p>
           <ul>
-            <li>Identity-first controls and hardening baselines</li>
-            <li>Monitoring stacks with clear incident signals</li>
-            <li>Productised packs for fast, predictable outcomes</li>
+            <li>License inventory and optimization</li>
+            <li>Usage insights with actionable reporting</li>
+            <li>Integrations with CI/CD and service catalogs</li>
           </ul>
         </div>
-      </div>
-      <div class="cta-group">
-        <a class="button ghost" href="services.html">View all services</a>
       </div>
     </section>
 
@@ -169,7 +148,7 @@
         </p>
       </div>
       <div class="contact-grid">
-        <form class="contact-form" action="mailto:tsvuurab@oncloud.africa" method="post" enctype="text/plain">
+        <form class="contact-form">
           <label>
             Name
             <input type="text" name="name" placeholder="Your name" required />
@@ -205,10 +184,6 @@
               <p class="label">Engagement model</p>
               <p>Advisory, delivery pods, or co-delivery</p>
             </div>
-            <div>
-              <p class="label">Direct email</p>
-              <p><a href="mailto:tsvuurab@oncloud.africa">tsvuurab@oncloud.africa</a></p>
-            </div>
           </div>
         </div>
       </div>
@@ -223,7 +198,7 @@
     <div class="footer-links">
       <a href="#home">Home</a>
       <a href="#about">About</a>
-      <a href="services.html">Services</a>
+      <a href="#services">Services</a>
       <a href="#contact">Contact</a>
     </div>
     <p class="footer-note">Resilient cloud foundations, delivered with clarity.</p>
