@@ -1,266 +1,144 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#0f1116" />
-    <title>OnCloud Services | Modern Cloud, HPC, and Licensing Expertise</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <header class="top-bar">
-      <div class="brand">
-        <span class="dot"></span>
-        <span class="name">OnCloud</span>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OnCloud Services | Platform engineering delivery</title>
+  <meta name="description" content="OnCloud services cover platform engineering, integration architecture, security, automation, observability, and bespoke engineering for regulated enterprises." />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+</head>
+<body>
+  <header class="top-bar">
+    <div class="brand">
+      <span class="dot" aria-hidden="true"></span>
+      <span class="name">OnCloud</span>
+    </div>
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav class="nav" aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="products.html">Products</a>
+      <a href="platforms.html">Platforms</a>
+      <a href="solutions.html">Solutions</a>
+      <a href="services.html">Services</a>
+      <a href="case-studies.html">Case Studies</a>
+      <a href="trust.html">Trust &amp; Compliance</a>
+      <a href="country-readiness.html">Country Readiness</a>
+      <a href="about.html">About</a>
+      <a href="blog.html">Blog</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="section-header">
+        <p class="eyebrow">Services</p>
+        <h1>Delivery pods for regulated platforms</h1>
+        <p class="section-lede">We deliver platform engineering as a team capability, with clear controls and measurable outcomes.</p>
       </div>
-      <div class="controls">
-        <button class="theme-toggle" type="button" aria-label="Toggle color mode" aria-live="polite"></button>
-        <div class="language-note" id="language-note" aria-live="polite"></div>
+    </section>
+
+    <section class="section section-muted">
+      <div class="grid three">
+        <div class="service-card">
+          <h3>Platform Engineering</h3>
+          <ul class="list">
+            <li>Hybrid cloud landing zones and data residency</li>
+            <li>Cluster reliability and lifecycle automation</li>
+            <li>Release governance and change control</li>
+          </ul>
+        </div>
+        <div class="service-card">
+          <h3>Integration Architecture</h3>
+          <ul class="list">
+            <li>API routing and orchestration design</li>
+            <li>Partner onboarding flows and compliance tooling</li>
+            <li>Latency and failure mode controls</li>
+          </ul>
+        </div>
+        <div class="service-card">
+          <h3>Security &amp; Compliance Engineering</h3>
+          <ul class="list">
+            <li>Zero-trust architecture and least privilege</li>
+            <li>Audit trails and security baselines</li>
+            <li>Data minimisation and encryption patterns</li>
+          </ul>
+        </div>
+        <div class="service-card">
+          <h3>Automation &amp; IaC</h3>
+          <ul class="list">
+            <li>Terraform and Ansible playbooks</li>
+            <li>CI/CD automation with approval gates</li>
+            <li>Drift control and compliance reporting</li>
+          </ul>
+        </div>
+        <div class="service-card">
+          <h3>Observability &amp; SRE</h3>
+          <ul class="list">
+            <li>Prometheus, Grafana, ELK, and alerting</li>
+            <li>SLO definitions and incident response</li>
+            <li>Runbooks and reliability reviews</li>
+          </ul>
+        </div>
+        <div class="service-card">
+          <h3>Identity &amp; Directory Integrations</h3>
+          <ul class="list">
+            <li>LDAP/389DS and Active Directory federation</li>
+            <li>Role-based access control</li>
+            <li>Secrets hygiene and credential rotation</li>
+          </ul>
+        </div>
+        <div class="service-card">
+          <h3>License Services Automation</h3>
+          <ul class="list">
+            <li>OpenLM, FlexNet, DSLS, CATIA, LSTC workflows</li>
+            <li>Expiry detection and approval gates</li>
+            <li>Dashboards for utilisation and compliance</li>
+          </ul>
+        </div>
       </div>
-      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
-      <nav class="nav" aria-label="Main navigation">
-        <a href="index.html#home">Home</a>
-        <a href="services.html">Services</a>
-        <a href="index.html#contact">Contact</a>
-      </nav>
-    </header>
+    </section>
 
-    <main>
-      <section id="services" class="section">
-        <div class="section-header">
-          <p class="eyebrow">Services</p>
-          <h1>Practical delivery across compute, automation, and governance</h1>
-          <p class="section-lede">
-            OnCloud shapes dependable platforms with clear runbooks, observability, and licensing clarity so teams can
-            build confidently. Explore the full catalogue of offerings below.
-          </p>
-        </div>
-      </section>
-
-      <section id="hpc-engineering" class="section service-group">
-        <div class="section-header">
-          <p class="eyebrow">HPC &amp; Engineering Compute</p>
-          <h2>Design, tune, and govern high-performance environments</h2>
-          <p class="section-lede">
-            Patterns for simulation, AI, and analytics workloads that balance speed, reliability, and cost control.
-          </p>
-        </div>
-        <div class="services-grid">
-          <div class="service-card">
-            <h3>HPC Architecture &amp; Scaling</h3>
-            <p>Cluster topology, schedulers, storage layouts, and networking built for demanding workloads.</p>
-          </div>
-          <div class="service-card">
-            <h3>Simulation &amp; CAE Environments</h3>
-            <p>Configured engineering toolchains and solvers for reliable, repeatable runs on shared infrastructure.</p>
-          </div>
-          <div class="service-card">
-            <h3>Performance Tuning &amp; Benchmarking</h3>
-            <p>Workload analysis, bottleneck removal, and CPU/memory/I/O optimisation for faster turnaround.</p>
-          </div>
-          <div class="service-card">
-            <h3>HPC Operations &amp; Governance</h3>
-            <p>Operational standards, capacity planning, and guardrails that keep scale and stability aligned.</p>
-          </div>
-        </div>
-      </section>
-
-      <section id="license-management" class="section service-group">
-        <div class="section-header">
-          <p class="eyebrow">License Management &amp; Software Asset Management</p>
-          <h2>Control and visibility for critical software licenses</h2>
-          <p class="section-lede">From server design to utilisation analytics and renewal automation.</p>
-        </div>
-        <div class="services-grid">
-          <div class="service-card">
-            <h3>License Server Design &amp; Implementation</h3>
-            <p>Secure Linux and Windows deployments for FlexLM-style, RLM-style, DSLS-style, LM-X-style managers.</p>
-          </div>
-          <div class="service-card">
-            <h3>Usage Analytics &amp; Dashboards</h3>
-            <p>Utilisation, peak time, denial, and user-origin insights to guide capacity decisions.</p>
-          </div>
-          <div class="service-card">
-            <h3>Expiry &amp; Compliance Automation</h3>
-            <p>Automated parsing and alerts 90/60/30 days before expiry with surfaced risks.</p>
-          </div>
-          <div class="service-card">
-            <h3>Cost Optimisation Reviews</h3>
-            <p>Data-driven recommendations for pool sizing, server consolidation, and license mix changes.</p>
-          </div>
-        </div>
-      </section>
-
-      <section id="automation-devops" class="section service-group">
-        <div class="section-header">
-          <p class="eyebrow">Automation, DevOps &amp; Cloud</p>
-          <h2>Repeatable delivery with strong controls</h2>
-          <p class="section-lede">Infrastructure-as-code, CI/CD, and landing zones built for auditable speed.</p>
-        </div>
-        <div class="services-grid">
-          <div class="service-card">
-            <h3>Infrastructure as Code</h3>
-            <p>Server, cluster, storage, and network definitions with tools like Ansible and Terraform.</p>
-          </div>
-          <div class="service-card">
-            <h3>CI/CD Pipeline Engineering</h3>
-            <p>Build, test, and deploy pipelines with observability and release governance baked in.</p>
-          </div>
-          <div class="service-card">
-            <h3>Cloud Platform Enablement</h3>
-            <p>Secure landing zones for AWS/Azure-style clouds covering networking, IAM, backup, and monitoring.</p>
-          </div>
-          <div class="service-card">
-            <h3>Operational Runbooks &amp; Automation</h3>
-            <p>Automated workflows that reduce toil and error across routine operational tasks.</p>
-          </div>
-        </div>
-      </section>
-
-      <section id="virtualisation" class="section service-group">
-        <div class="section-header">
-          <p class="eyebrow">Virtualisation &amp; VMware Services</p>
-          <h2>Standardised private cloud foundations</h2>
-          <p class="section-lede">Design and operate vSphere/ESXi platforms with resilience and automation.</p>
-        </div>
-        <div class="services-grid">
-          <div class="service-card">
-            <h3>Platform Design &amp; Build</h3>
-            <p>vSphere/ESXi clusters with HA, DRS, vMotion, and consistent host profiles.</p>
-          </div>
-          <div class="service-card">
-            <h3>VM Operations &amp; Automation</h3>
-            <p>Lifecycle automation via Ansible and PowerCLI for provisioning, patching, and decommissioning.</p>
-          </div>
-          <div class="service-card">
-            <h3>Private Cloud on VMware</h3>
-            <p>Self-service catalogues, quotas, and policy-driven access controls on top of virtualisation.</p>
-          </div>
-          <div class="service-card">
-            <h3>Performance &amp; Capacity Tuning</h3>
-            <p>Right-sizing and planning for CPU, memory, and storage to avoid contention and outages.</p>
-          </div>
-          <div class="service-card">
-            <h3>BC/DR for Virtual Environments</h3>
-            <p>Backup and disaster recovery strategies with replication and tested failover runbooks.</p>
-          </div>
-        </div>
-      </section>
-
-      <section id="integration-data" class="section service-group">
-        <div class="section-header">
-          <p class="eyebrow">Integration &amp; Data Flows</p>
-          <h2>Keep systems in sync with resilient patterns</h2>
-          <p class="section-lede">Architectures and governance that make data movement observable and reliable.</p>
-        </div>
-        <div class="services-grid">
-          <div class="service-card">
-            <h3>System Integration Architecture</h3>
-            <p>Mapping and pattern design for cross-platform data flows between tools and business units.</p>
-          </div>
-          <div class="service-card">
-            <h3>API and Event-Driven Integrations</h3>
-            <p>Secure APIs, webhooks, and event streams that avoid fragile point-to-point scripts.</p>
-          </div>
-          <div class="service-card">
-            <h3>Data Quality &amp; Governance</h3>
-            <p>Validation, logging, and governance around key flows so metrics and reports stay trustworthy.</p>
-          </div>
-        </div>
-      </section>
-
-      <section id="observability" class="section service-group">
-        <div class="section-header">
-          <p class="eyebrow">Monitoring, Dashboards &amp; Observability</p>
-          <h2>Visibility that leaders and operators can trust</h2>
-          <p class="section-lede">Unified monitoring with actionable dashboards and signals.</p>
-        </div>
-        <div class="services-grid">
-          <div class="service-card">
-            <h3>Unified Monitoring Stack</h3>
-            <p>Metric collection, log aggregation, and dashboards for servers, services, and license systems.</p>
-          </div>
-          <div class="service-card">
-            <h3>Custom Exporter Development</h3>
-            <p>Expose metrics from specialist or legacy tools via lightweight exporters.</p>
-          </div>
-          <div class="service-card">
-            <h3>Service Health Dashboards</h3>
-            <p>Executive and operational views showing availability, performance, and key indicators.</p>
-          </div>
-          <div class="service-card">
-            <h3>Alerting &amp; Incident Signals</h3>
-            <p>Noise-aware alert rules that speed up response to real issues.</p>
-          </div>
-        </div>
-      </section>
-
-      <section id="security" class="section service-group">
-        <div class="section-header">
-          <p class="eyebrow">Security, Zero Trust &amp; Compliance</p>
-          <h2>Security that keeps delivery moving</h2>
-          <p class="section-lede">Baselines, identity, and audit-ready patterns aligned to Zero Trust principles.</p>
-        </div>
-        <div class="services-grid">
-          <div class="service-card">
-            <h3>Security Baseline &amp; Hardening</h3>
-            <p>Applying CIS-style baselines, firewalling, and secure defaults to hosts and services.</p>
-          </div>
-          <div class="service-card">
-            <h3>Identity &amp; Access Design</h3>
-            <p>Role-based access control, least privilege, strong authentication, and audit trails.</p>
-          </div>
-          <div class="service-card">
-            <h3>Zero Trust Architecture Guidance</h3>
-            <p>Identity- and context-aware access with continuous verification beyond perimeters.</p>
-          </div>
-          <div class="service-card">
-            <h3>Compliance &amp; Audit Support</h3>
-            <p>Documentation, patterns, and automation that ease internal and external audits.</p>
-          </div>
-        </div>
-      </section>
-
-      <section id="packs" class="section service-group">
-        <div class="section-header">
-          <p class="eyebrow">Productised Service Packs</p>
-          <h2>Pre-defined bundles for rapid outcomes</h2>
-          <p class="section-lede">Choose focused packs to start fast with clear deliverables.</p>
-        </div>
-        <div class="services-grid">
-          <div class="service-card">
-            <h3>License Monitoring Pack</h3>
-            <p>Rapid setup of license monitoring, dashboards, expiry alerts, and a simple usage report.</p>
-          </div>
-          <div class="service-card">
-            <h3>DevOps Starter Pack</h3>
-            <p>Baseline CI/CD pipeline, infrastructure-as-code templates, and basic observability.</p>
-          </div>
-          <div class="service-card">
-            <h3>Security Baseline Pack</h3>
-            <p>Quick assessment and hardening of key servers or environments with an actionable report.</p>
-          </div>
-          <div class="service-card">
-            <h3>Cloud &amp; Web Presence Starter</h3>
-            <p>Simple cloud-hosted website, DNS, SSL, and basic email routing for small teams.</p>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <footer class="footer">
-      <div class="footer-brand">
-        <span class="dot"></span>
-        <span class="name">OnCloud</span>
+    <section class="section">
+      <div class="section-header">
+        <p class="eyebrow">Bespoke Engineering</p>
+        <h2>Custom delivery without sensitive client disclosure</h2>
+        <p class="section-lede">We deliver bespoke projects while keeping client details confidential.</p>
       </div>
-      <div class="footer-links">
-        <a href="index.html#home">Home</a>
-        <a href="services.html">Services</a>
-        <a href="index.html#contact">Contact</a>
+      <div class="grid two">
+        <div class="card">
+          <ul class="list">
+            <li>Secure internal portals (PHP/SQLite admin and user portals)</li>
+            <li>CI/CD automation with GitHub Actions</li>
+            <li>Country-isolated multi-tenant repo governance models</li>
+          </ul>
+        </div>
+        <div class="card">
+          <ul class="list">
+            <li>Custom parsers, validation pipelines, and compliance reporting</li>
+            <li>Migration runbooks and ITIL-aligned change packs</li>
+            <li>Test and backout plans for regulated environments</li>
+          </ul>
+        </div>
       </div>
-      <p class="footer-note">Resilient cloud foundations, delivered with clarity.</p>
-    </footer>
+    </section>
+  </main>
 
-    <script src="script.js"></script>
-  </body>
+  <footer class="footer">
+    <div class="footer-brand">
+      <span class="dot" aria-hidden="true"></span>
+      <span class="name">OnCloud</span>
+    </div>
+    <div class="footer-links">
+      <a href="products.html">Products</a>
+      <a href="platforms.html">Platforms</a>
+      <a href="partner-onboarding.html">Partner Onboarding Pack</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <p class="small">Delivery pods aligned to regulated enterprise needs.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
 </html>
