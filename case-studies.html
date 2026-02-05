@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OnCloud Case Studies | Enterprise platform outcomes</title>
+  <meta name="description" content="Anonymised enterprise case studies covering HPC automation, license compliance, zero-trust identity, VAS integration, IaC, and observability." />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+</head>
+<body>
+  <header class="top-bar">
+    <div class="brand">
+      <span class="dot" aria-hidden="true"></span>
+      <span class="name">OnCloud</span>
+    </div>
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav class="nav" aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="products.html">Products</a>
+      <a href="platforms.html">Platforms</a>
+      <a href="solutions.html">Solutions</a>
+      <a href="services.html">Services</a>
+      <a href="case-studies.html">Case Studies</a>
+      <a href="trust.html">Trust &amp; Compliance</a>
+      <a href="country-readiness.html">Country Readiness</a>
+      <a href="about.html">About</a>
+      <a href="blog.html">Blog</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="section-header">
+        <p class="eyebrow">Case Studies</p>
+        <h1>Anonymised enterprise-grade delivery stories</h1>
+        <p class="section-lede">Each case study is anonymised and focuses on delivery patterns, not employer names.</p>
+      </div>
+    </section>
+
+    <section class="section section-muted">
+      <div class="grid two">
+        <article class="case-card">
+          <h2>HPC Platform Automation for a Global Engineering Environment</h2>
+          <p class="section-lede">Automation and reliability controls for large-scale engineering clusters.</p>
+          <h4>Context</h4>
+          <p class="small">Global engineering organisation running multi-region simulation workloads.</p>
+          <h4>Constraints</h4>
+          <ul class="list">
+            <li>Strict uptime requirements and change windows</li>
+            <li>Auditability for regulated workloads</li>
+            <li>Latency-sensitive scheduling</li>
+          </ul>
+          <h4>Architecture highlights</h4>
+          <ul class="list">
+            <li>Automated cluster provisioning and patching</li>
+            <li>Multi-tier scheduler with HA control plane</li>
+            <li>Observability pipelines and reliability dashboards</li>
+          </ul>
+          <h4>What OnCloud built</h4>
+          <ul class="list">
+            <li>Automation pipelines for cluster lifecycle</li>
+            <li>Operational runbooks and change control templates</li>
+            <li>Monitoring with alerting and SLO reporting</li>
+          </ul>
+          <h4>Controls</h4>
+          <ul class="list">
+            <li>Audit trails for infrastructure changes</li>
+            <li>Approval gates for releases</li>
+            <li>Least-privilege access policies</li>
+          </ul>
+          <h4>Outcome metrics (example outcomes)</h4>
+          <ul class="list">
+            <li>Reduced manual effort by ~45%</li>
+            <li>Improved deployment consistency by ~60%</li>
+            <li>Increased audit readiness score by ~30%</li>
+          </ul>
+        </article>
+
+        <article class="case-card">
+          <h2>License Automation &amp; Compliance with OpenLM + Multi-Vendor License Servers</h2>
+          <p class="section-lede">Automated license telemetry for a complex engineering estate.</p>
+          <h4>Context</h4>
+          <p class="small">Enterprise engineering teams using multiple vendor license servers.</p>
+          <h4>Constraints</h4>
+          <ul class="list">
+            <li>Compliance reporting for audits</li>
+            <li>Downtime avoidance for critical tools</li>
+            <li>Multi-vendor license server complexity</li>
+          </ul>
+          <h4>Architecture highlights</h4>
+          <ul class="list">
+            <li>OpenLM analytics across FlexNet/DSLS/etc.</li>
+            <li>Event-driven expiry detection</li>
+            <li>Dashboards for utilisation and denial rates</li>
+          </ul>
+          <h4>What OnCloud built</h4>
+          <ul class="list">
+            <li>Expiry detection and alerting pipelines</li>
+            <li>Restart workflows with approval gates</li>
+            <li>Compliance dashboards and reports</li>
+          </ul>
+          <h4>Controls</h4>
+          <ul class="list">
+            <li>Change control for license updates</li>
+            <li>Audit logs for administrative actions</li>
+            <li>Role-based access for operations</li>
+          </ul>
+          <h4>Outcome metrics (example outcomes)</h4>
+          <ul class="list">
+            <li>Reduced license outages by ~35%</li>
+            <li>Improved compliance reporting time by ~50%</li>
+            <li>Reduced manual ticket volume by ~40%</li>
+          </ul>
+        </article>
+
+        <article class="case-card">
+          <h2>Zero-Trust Directory Services Integration (LDAP/389DS + AD + Multi-OS Access)</h2>
+          <p class="section-lede">Unified identity foundations for a regulated enterprise.</p>
+          <h4>Context</h4>
+          <p class="small">Hybrid environment requiring consistent authentication across Unix and Windows.</p>
+          <h4>Constraints</h4>
+          <ul class="list">
+            <li>Security and compliance policies for identity</li>
+            <li>Disaster recovery readiness</li>
+            <li>Low-latency authentication requirements</li>
+          </ul>
+          <h4>Architecture highlights</h4>
+          <ul class="list">
+            <li>LDAP/389DS integrated with Active Directory</li>
+            <li>Role objects for access control</li>
+            <li>Secrets hygiene and credential rotation</li>
+          </ul>
+          <h4>What OnCloud built</h4>
+          <ul class="list">
+            <li>Directory integration and replication design</li>
+            <li>Role-based access models</li>
+            <li>DR playbooks and access monitoring</li>
+          </ul>
+          <h4>Controls</h4>
+          <ul class="list">
+            <li>Least-privilege policy enforcement</li>
+            <li>Audit trails for access changes</li>
+            <li>Approval workflows for privileged roles</li>
+          </ul>
+          <h4>Outcome metrics (example outcomes)</h4>
+          <ul class="list">
+            <li>Reduced access provisioning time by ~55%</li>
+            <li>Improved audit readiness by ~35%</li>
+            <li>Reduced authentication incidents by ~25%</li>
+          </ul>
+        </article>
+
+        <article class="case-card">
+          <h2>Regulated Integration Platform: Secure Routing without Holding Funds</h2>
+          <p class="section-lede">The VAS platform story for regulated African corridors.</p>
+          <h4>Context</h4>
+          <p class="small">Enterprise integration platform connecting remittance and VAS providers.</p>
+          <h4>Constraints</h4>
+          <ul class="list">
+            <li>Partner-held funds model</li>
+            <li>Per-country data residency</li>
+            <li>Strict latency and availability targets</li>
+          </ul>
+          <h4>Architecture highlights</h4>
+          <ul class="list">
+            <li>OnCloud switch with isolated country runtimes</li>
+            <li>Provider connectors with policy enforcement</li>
+            <li>Encrypted payload handling and audit logs</li>
+          </ul>
+          <h4>What OnCloud built</h4>
+          <ul class="list">
+            <li>API routing, validation, and orchestration</li>
+            <li>Compliance tooling and reporting dashboards</li>
+            <li>Operational monitoring and incident response workflows</li>
+          </ul>
+          <h4>Controls</h4>
+          <ul class="list">
+            <li>Least-privilege access and role separation</li>
+            <li>Change control and release governance</li>
+            <li>Audit trails for all transactions</li>
+          </ul>
+          <h4>Outcome metrics (example outcomes)</h4>
+          <ul class="list">
+            <li>Reduced integration time by ~40%</li>
+            <li>Improved corridor uptime by ~25%</li>
+            <li>Reduced manual reconciliation by ~30%</li>
+          </ul>
+        </article>
+
+        <article class="case-card">
+          <h2>Infrastructure as Code for Hybrid Environments</h2>
+          <p class="section-lede">Repeatable environments across cloud and on-prem estates.</p>
+          <h4>Context</h4>
+          <p class="small">Enterprise platform team managing multi-country deployments.</p>
+          <h4>Constraints</h4>
+          <ul class="list">
+            <li>Compliance and change control requirements</li>
+            <li>Country-specific data residency</li>
+            <li>Reduced deployment windows</li>
+          </ul>
+          <h4>Architecture highlights</h4>
+          <ul class="list">
+            <li>Terraform modules and policy-as-code</li>
+            <li>Automated drift detection</li>
+            <li>Standardised release pipelines</li>
+          </ul>
+          <h4>What OnCloud built</h4>
+          <ul class="list">
+            <li>IaC libraries and automation pipelines</li>
+            <li>Governance dashboards and compliance reports</li>
+            <li>Runbooks for repeatable rollout</li>
+          </ul>
+          <h4>Controls</h4>
+          <ul class="list">
+            <li>Approval gates on infrastructure changes</li>
+            <li>Audit logs and access reviews</li>
+            <li>Least-privilege service accounts</li>
+          </ul>
+          <h4>Outcome metrics (example outcomes)</h4>
+          <ul class="list">
+            <li>Reduced deployment time by ~50%</li>
+            <li>Improved consistency by ~45%</li>
+            <li>Reduced drift incidents by ~35%</li>
+          </ul>
+        </article>
+
+        <article class="case-card">
+          <h2>Operational Observability Framework</h2>
+          <p class="section-lede">Metrics, logs, traces, and SLO-driven incident response.</p>
+          <h4>Context</h4>
+          <p class="small">Regulated operations team needing unified observability and governance.</p>
+          <h4>Constraints</h4>
+          <ul class="list">
+            <li>Data minimisation and privacy controls</li>
+            <li>Fast MTTR targets</li>
+            <li>Cross-team operational visibility</li>
+          </ul>
+          <h4>Architecture highlights</h4>
+          <ul class="list">
+            <li>Prometheus/Grafana and ELK integration</li>
+            <li>SLO dashboards and alerting policies</li>
+            <li>Incident response and post-incident reviews</li>
+          </ul>
+          <h4>What OnCloud built</h4>
+          <ul class="list">
+            <li>Telemetry pipelines and dashboards</li>
+            <li>Alerting rules and runbooks</li>
+            <li>Incident response workflows and reporting</li>
+          </ul>
+          <h4>Controls</h4>
+          <ul class="list">
+            <li>Audit trails for changes to monitoring rules</li>
+            <li>Role-based access to observability tooling</li>
+            <li>Change control for SLO updates</li>
+          </ul>
+          <h4>Outcome metrics (example outcomes)</h4>
+          <ul class="list">
+            <li>Reduced MTTR by ~30%</li>
+            <li>Improved alert accuracy by ~25%</li>
+            <li>Reduced incident recurrence by ~20%</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-brand">
+      <span class="dot" aria-hidden="true"></span>
+      <span class="name">OnCloud</span>
+    </div>
+    <div class="footer-links">
+      <a href="products.html">Products</a>
+      <a href="platforms.html">Platforms</a>
+      <a href="partner-onboarding.html">Partner Onboarding Pack</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <p class="small">Enterprise delivery patterns with anonymised outcomes.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
