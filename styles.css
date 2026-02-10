@@ -545,9 +545,3 @@ textarea:focus {
     font-size: 10px;
   }
 }
-
-@media (prefers-color-scheme: dark) and (max-width: 820px) {
-  .nav {
-    background: var(--background-alt);
-  }
-}
